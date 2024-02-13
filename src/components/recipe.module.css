@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Indie+Flower&family=Inter+Tight:ital,wght@1,300&family=Inter:wght@200;400&display=swap");
+
+.recipe {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(63, 60, 60);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 40%;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  background-color: rgb(250, 246, 242);
+}
+
+.image {
+  border-radius: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+ul {
+  padding: 20px;
+}
+.text {
+  font-size: 1.5rem;
+  /* padding:20px; */
+}
+
+/* @media only screen and (max-width: 600px) {
+	.grid-container {
+	  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+  } */
